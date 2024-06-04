@@ -1,5 +1,5 @@
 import { validationResult } from 'express-validator'
-import foto from '../models/foto.model.js'
+import Foto from '../models/foto.model.js'
 
 export default class FotoController {
     static async index(req, res) {

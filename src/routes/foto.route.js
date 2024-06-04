@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import FotoController from '../controllers/foto.controller.js'
-import { fotoValidator, fotoUpdateValidator,fotoIdValidator }from '../validators/foto.validator.js'
+import { fotoValidator, fotoUpdateValidator,fotoIdValidator } from '../validators/foto.validator.js'
 
 const router = Router()
 
